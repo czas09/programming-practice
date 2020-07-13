@@ -4,151 +4,281 @@
 
 ### cz
 
-input/output
-    pickling
-    flat file
-    clipboard
+Input/Output
+    Pickling
+    Flat file
+    Clipboard
     Excel
     JSON
     HTML
     HDFStore: PyTable (HDF5)
-    feather
-    parquet
+    Feather
+    Parquet
     ORC
     SAS
     SPSS
     SQL
     Google BigQuery
     STATA
-general functions
-    data manipulation
-    top-level missing data
-    top-level conversions
-    top-level dealing with datatimelike
-    top-level dealing with intervals
-    top-level evaluation
-    hashing
-    testing
-series
-    construtor
-    attributes
-    conversion
-    indexing, iteration
-    binary operator functions
-    function application, groupby & window
-    computations / descriptive stats
-    reindexing / selection / label manipulation
-    missing data handling
-    reshaping, sorting
-    combining / joining / merging
-    time series-related
-    accessors
-    plotting
-    serialization / io / conversion
+General functions
+    Data manipulations
+    Top-level missing data
+    Top-level conversions
+    Top-level dealing with datatimelike
+    Top-level dealing with intervals
+    Top-level evaluation
+    Hashing
+    Testing
+Series
+    Construtor
+    Attributes
+    Conversion
+    Indexing, iteration
+    Binary operator functions
+    Function application, groupby & window
+    Computations / descriptive stats
+    Reindexing / selection / label manipulation
+    Missing data handling
+    Reshaping, sorting
+    Combining / joining / merging
+    Time series-related
+    Accessors
+        Datetimelike preperties
+            Datetime preperties
+            Datetime methods
+            Period preperties
+            Timedelta preperties
+            Timedelta methods
+        String handling
+        Categorical accessor
+        Sparse accessor
+        Metadata
+    Plotting
+    Serialization / IO / conversion
 DataFrame
-    constructor
-    attributes and underlying data
-    conversion
-    indexing, iteration
-    binary operator functions
-    function application, GroupBy & window
-    computations / descriptive stats
-    reindexing / selection / label manipulation
-    missing data handling
-    reshaping, sorting, trasposing
-    conbining / joining / merging
-    time series-related
-    metadata
-    plotting
-    spars accessor
-    serialization / io / conversion
-pandas arrays
+    Constructor
+    Attributes and underlying data
+    Conversion
+    Indexing, iteration
+    Binary operator functions
+    Function application, GroupBy & window
+    Computations / descriptive stats
+    Reindexing / selection / label manipulation
+    Missing data handling
+    Reshaping, sorting, trasposing
+    Combining / joining / merging
+    Time series-related
+    Metadata
+    Plotting
+    Sparse accessor
+    Serialization / IO / conversion
+Pandas arrays
     `pandas.array`
-    datetime data
-    timedelta data
-    timespan data
-    period
-    interval
-    nullable integer
-    categorical data
-    sparse data
-    text
-    boolean data with missing values
-panel
-index objects
-    index
-    numeric index
+    Datetime data
+        Properties
+        Methods
+    Timedelta data
+        Properties
+        Methods
+    Timespan data
+    Period
+        Properties
+        Methods
+    Interval data
+        Properties
+    Nullable integer
+    Categorical data
+    Sparse data
+    Text data
+    Boolean data with missing values
+Panel
+Index objects
+    Index
+        Properties
+        Modifying and computations
+        Compatibility with MultiIndex
+        Missing values
+        Conversion
+        Sorting
+        Time-specific operations
+        Combining / joining / set operations
+        Selecting
+    Numeric index
     CategoricalIndex
+        Categorical components
+        Modifying and computations
+    IntervalIndex
+        IntervalIndex components
     MultiIndex
+        MultiIndex constructors
+        MultiIndex properties
+        MultiIndex components
+        MultiIndex selecting
     DatetimeIndex
+        Time/Date components
+        Selecting
+        Time-specific operations
+        Conversion
+        Methods
     TimedeltaIndex
-    PeriodIndex 
-date offsets
+        Components
+        Conversion
+        Methods
+    PeriodIndex
+        Properties
+        Methods 
+Date offsets
     DateOffset
+        Properties
+        Methods
     BusinessDay
+        Properties
+        Methods
     BusinessHour
+        Properties
+        Methods
     CustomBusinessDay
+        Properties
+        Methods
     CustomBusinessHour
+        Properties
+        Methods
     MonthOffset
+        Properties
+        Methods
     MonthEnd
+        Properties
+        Methods
     MonthBegin
+        Properties
+        Methods
     BusinessMonthEnd
+        Properties
+        Methods
     BusinessMonthBegin
+        Properties
+        Methods
     CustomBusinessMonthEnd
+        Properties
+        Methods
     CustomBusinessMonthBegin
+        Properties
+        Methods    
     SemiMonthOffset
+        Properties
+        Methods    
     SemiMonthEnd
+        Properties
+        Methods    
     SemiMonthBegin
+        Properties
+        Methods    
     Week
+        Properties
+        Methods    
     WeekOfMonth
+        Properties
+        Methods    
     LastWeekOfMonth
+        Properties
+        Methods    
     QuarterOffset
+        Properties
+        Methods    
     BQuarterEnd
+        Properties
+        Methods    
     BquarterBegin
+        Properties
+        Methods    
     YearOffset
+        Properties
+        Methods    
     BYearEnd
+        Properties
+        Methods    
     BYearBegin
+        Properties
+        Methods    
     YearEnd
+        Properties
+        Methods    
     YearBegin
+        Properties
+        Methods    
     FY5253
+        Properties
+        Methods    
     FY5253Quarter
+        Properties
+        Methods    
     Easter
+        Properties
+        Methods    
     Tick
+        Properties
+        Methods    
     Day
+        Properties
+        Methods    
     Hour
+        Properties
+        Methods    
     Minute
+        Properties
+        Methods    
     Second
+        Properties
+        Methods    
     Milli
+        Properties
+        Methods    
     Micro
+        Properties
+        Methods    
     Nano
+        Properties
+        Methods    
     BDay
+        Properties
+        Methods    
     BMonthEnd
+        Properties
+        Methods    
     BMonthBegin
+        Properties
+        Methods    
     CBMonthEnd
+        Properties
+        Methods    
     CBMonthBegin
+        Properties
+        Methods    
     CDay
-frequencies
+        Properties
+        Methods
+Frequencies
     `pandas.tseries.frequencies.to_offset`
-window
-    standard moving window functions
-    standard expanding window functions
-    exponentially-weighted moving window functions
-    window indexer
+Window
+    Standard moving window functions
+    Standard expanding window functions
+    Exponentially-weighted moving Window functions
+    Window indexer
 GroupBy
     Indexing, iteration
-    fucntion application
-    computations / descriptive stats
-resampling
-    indexing, iteration
-    function applcation
-    computations / descriptive stats
-style
-    styler constructor
-    styler properties
-    style applecation
-    builtin styles
-    style export and import
-plotting
+    Fucntion application
+    Computations / descriptive Stats
+Resampling
+    Indexing, iteration
+    Function applcation
+    Computations / descriptive stats
+Style
+    Styler constructor
+    Styler properties
+    Style applecation
+    Builtin styles
+    Style export and import
+Plotting
     `pandas.plotting.andrews_curves`
     `pandas.plotting.autocorrelation_plot`
     `pandas.plotting.bootstrap_plot`
@@ -161,9 +291,20 @@ plotting
     `pandas.plotting.register_matplotlib_converters`
     `pandas.plotting.scater_matrix`
     `pandas.plotting.table`
-general utility functions
-    working with options
-    teting functions
-    exceptions and warnings
-    data types related functionality
-extensions
+General utility functions
+    Working with options
+    Testing functions
+    Exceptions and warnings
+    Data types related functionality
+        Dtype introspection
+        Iterable introspection
+        Scalar introspection
+Extensions
+    `pandas.api.extension.register_extension_dtype`
+    `pandas.api.extension.register_dataframe_accessor`
+    `pandas.api.extension.register_series_accessor`
+    `pandas.api.extension.register_index_accessor`
+    `pandas.api.extension.ExtensionDtype`
+    `pandas.api.extension.ExtensionArray`
+    `pandas.arrays.PandasArray`
+    `pandas.api.indexers.check_array_indexer`
