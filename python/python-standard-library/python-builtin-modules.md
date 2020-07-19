@@ -722,88 +722,93 @@
 
 ### 17.1 `threading`: Thread-based parallelism
 
-17.1.1 
-17.1.2 
-17.1.3 
-17.1.4 
-17.1.5 
-17.1.6 
-    17.1.6.1 
-17.1.7 
-17.1.8 
-17.1.9 
-17.1.10 
+17.1.1 Thread-Local Data
+17.1.2 Thread Objects
+17.1.3 Lock Objects
+17.1.4 RLock Objects
+17.1.5 Condition Objects
+17.1.6 Semaphore Objects
+    17.1.6.1 `Semaphore` Example
+17.1.7 Event Objects
+17.1.8 Timer Objects
+17.1.9 Barrier Objects
+17.1.10 Using locks, conditions, and semaphores in the `with` statement
 
 ### 17.2 `multiprocessing`: Process-based parallelism
 
-17.2.1 
-    17.2.1.1 
-    17.2.1.2 
-    17.2.1.3 
-    17.2.1.4 
-    17.2.1.5 
-    17.2.1.6 
-17.2.2 
-    17.2.2.1 
-    17.2.2.2 
-    17.2.2.3 
-    17.2.2.4 
-    17.2.2.5 
-    17.2.2.6 
-    17.2.2.7 
-    17.2.2.8 
-    17.2.2.9 
-    17.2.2.10 
-    17.2.2.11 
-    17.2.2.12
-    17.2.2.13 
-17.2.3 
-    17.2.3.1 
-    17.2.3.2 
-17.2.4 
+17.2.1 Introduction
+    17.2.1.1 The `Process` class
+    17.2.1.2 Contexts and start methods
+    17.2.1.3 Exchanging objects between precesses
+    17.2.1.4 Synchronization between processes
+    17.2.1.5 Sharing state between processes
+    17.2.1.6 Using a pool of workers
+17.2.2 Reference
+    17.2.2.1 `Precess` and exceptions
+    17.2.2.2 Pipes and Queues
+    17.2.2.3 Miscellaneous
+    17.2.2.4 Connection Objects
+    17.2.2.5 Synchronization primitives
+    17.2.2.6 Shared `ctypes` Objects
+        17.2.2.6.1 The `multiprocessing.sharedctypes` module
+    17.2.2.7 Managers
+        17.2.2.7.1 Customized managers
+        17.2.2.7.2 Using a remote manager
+    17.2.2.8 Proxy Objects
+        17.2.2.8.1 Cleanup
+    17.2.2.9 Process Pools
+    17.2.2.10 Listeners and Clients
+        17.2.2.10.1 Address Formats
+    17.2.2.11 Authentication keys
+    17.2.2.12 Logging
+    17.2.2.13 The `multiprocessing.dummy` module
+17.2.3 Programming guidelines
+    17.2.3.1 All start methods
+    17.2.3.2 The _spawn_ and _forkserver_ start methods
+17.2.4 Examples
 
 ### 17.3 The `concurrent` package
 
 ### 17.4 `concurrent.futures`: Launching parallel tasks
 
-17.4.1 
-17.4.2 
-    17.4.2.1 
-17.4.3 
-    17.4.3.1 
-17.4.4 
-17.4.5 
-17.4.6 
+17.4.1 Executor Objects
+17.4.2 ThreadPoolExecutor
+    17.4.2.1 ThreadPoolExecutor Example
+17.4.3 ProcessPoolExecutor
+    17.4.3.1 ProcessPoolExecutor Example
+17.4.4 Future Objects
+17.4.5 Module Functions
+17.4.6 Exception classes
 
 ### 17.5 `subprocess`: Subprocess management
 
-17.5.1
-    17.5.1.1 
-    17.5.1.2 
-    17.5.1.3 
-17.5.2
-17.5.3
-17.5.4
-    17.5.4.1
-17.5.5
-17.5.6
-    17.5.6.1 
-    17.5.6.2 
-    17.5.6.3 
-    17.5.6.4 
-    17.5.6.5 
-    17.5.6.6 
-17.5.7
-17.5.8
-    17.5.8.1 
+17.5.1 Using the `subprocess` Module
+    17.5.1.1 Frequently Used Arguments
+    17.5.1.2 Popen Constructor
+    17.5.1.3 Exceptions
+17.5.2 Security Considerations
+17.5.3 Popen Objects
+17.5.4 Windows Popen Helpers
+    17.5.4.1 Constants
+17.5.5 Older high-level API
+17.5.6 Replacing Plder Functions with the `subprocess` Module
+    17.5.6.1 Replacing /bin/sh shell backquote
+    17.5.6.2 Replacing shell pipeline
+    17.5.6.3 Replacing `os.system()`
+    17.5.6.4 Replacing the `os.spawn` family
+    17.5.6.5 Replacing `os.popen()`, `os.popen2()`, `os.popen3()`
+    17.5.6.6 Replacing functions from the `popen2` module
+17.5.7 Legacy Shell Invocation Functions
+17.5.8 Notes
+    17.5.8.1 Converting an argument sequence to a string on Windows
 
 ### 17.6 `sched`: Event scheduler
 
-17.6.1 
+17.6.1 Scheduler Objects
 
 ### 17.7 `queue`: A synchronized queue class
 
-17.7.1 
+17.7.1 Queue Objects
 
 ### 17.8 `dummy_threading`: Drop-in replacement for the `threading` module
 
@@ -817,18 +822,18 @@
 
 ### 18.1 `socket`: Low-level networking interface
 
-18.1.1 
-18.1.2 
-    18.1.2.1 
-    18.1.2.2 
-    18.1.2.3 
-        18.1.2.3.1 
-        18.1.2.3.2 
-18.1.3 
-18.1.4 
-    18.1.4.1 
-    18.1.4.2 
-18.1.5 
+18.1.1 Socket families
+18.1.2 Module contents
+    18.1.2.1 Exceptions
+    18.1.2.2 Constants
+    18.1.2.3 Functions
+        18.1.2.3.1 Creating sockets
+        18.1.2.3.2 Other functions
+18.1.3 Socket Objects
+18.1.4 Notes on socket timeouts
+    18.1.4.1 Timeouts and the `connect` method
+    18.1.4.2 Timeouts and the `accept` method
+18.1.5 Example
 
 ### 18.2 `ssl`: TLS/SSL wrapper for socket objects
 
@@ -877,118 +882,118 @@
 
 ### 18.5 `asyncio`: Asynchronous I/O, event loop, coroutines and tasks
 
-18.5.1 
-    18.5.1.1 
-    18.5.1.2 
-    18.5.1.3 
-    18.5.1.4 
-    18.5.1.5 
-    18.5.1.6 
-    18.5.1.7 
-    18.5.1.8 
-    18.5.1.9 
-    18.5.1.10 
-    18.5.1.11 
-    18.5.1.12 
-    18.5.1.13 
-    18.5.1.14 
-    18.5.1.15 
-    18.5.1.16 
-    18.5.1.17 
-    18.5.1.18 
-        18.5.1.18.1 
-        18.5.1.18.2 
-        18.5.1.18.3 
-        18.5.1.18.4 
-18.5.2 
-    18.5.2.1 
-    18.5.2.2 
-    18.5.2.3 
-        18.5.2.3.1 
-        18.5.2.3.2 
-    18.5.2.4 
-    18.5.2.5 
-    18.5.2.6 
-    18.5.2.7 
-18.5.3 
-    18.5.3.1 
-        18.5.3.1.1 
-        18.5.3.1.2 
-        18.5.3.1.3 
-    18.5.3.2 
-    18.5.3.3 
-    18.5.3.4 
-        18.5.3.4.1 
-        18.5.3.4.2 
-    18.5.3.5 
-        18.5.3.5.1 
-    18.5.3.6 
-18.5.4 
-    18.5.4.1 
-        18.5.4.1.1 
-        18.5.4.1.2 
-        18.5.4.1.3 
-        18.5.4.1.4 
-        18.5.4.1.5 
-    18.5.4.2 
-        18.5.5.2.1 
-        18.5.5.2.2 
-        18.5.5.2.3 
-        18.5.5.2.4 
-        18.5.5.2.1 
-        18.5.5.2.6 
-    18.5.4.3 
-        18.5.4.3.1 
-        18.5.4.3.2 
-        18.5.4.3.3 
-        18.5.4.3.4 
-        18.5.4.3.5 
-18.5.5 
-    18.5.5.1 
-    18.5.5.2 
-    18.5.5.3 
-    18.5.5.4 
-    18.5.5.5 
-    18.5.5.6 
-    18.5.5.7 
-        18.5.5.7.1 
-        18.5.5.7.2 
-        18.5.5.7.3 
-        18.5.5.7.4 
-18.5.6 
-    18.5.6.1 
-    18.5.6.2 
-    18.5.6.3 
-    18.5.6.4 
-    18.5.6.5 
-    18.5.6.6 
-    18.5.6.7 
-        18.5.6.7.1 
-        18.5.6.7.2 
-18.5.7 
-    18.5.7.1 
-        18.5.7.1.1 
-        18.5.7.1.2 
-        18.5.7.1.3 
-    18.5.7.2 
-        18.5.7.2.1 
-        18.5.7.2.2 
-18.5.8 
-    18.5.8.1 
-    18.5.8.2 
-    18.5.8.3 
-        18.5.8.3.1 
-18.5.9 
-    18.5.9.1 
-    18.5.9.2 
-    18.5.9.3 
-    18.5.9.4 
-    18.5.9.5 
-    18.5.9.6 
-    18.5.9.7 
-    18.5.9.8 
-    18.5.9.9 
-    18.5.9.10 
+18.5.1 Base Event Loop
+    18.5.1.1 Run an event loop
+    18.5.1.2 Calls
+    18.5.1.3 Delayed calls
+    18.5.1.4 Futures
+    18.5.1.5 Tasks
+    18.5.1.6 Creating connections
+    18.5.1.7 Creating listening connections
+    18.5.1.8 Watch file descriptors
+    18.5.1.9 Low-level socket operations
+    18.5.1.10 Resolve host name
+    18.5.1.11 Connect pipes
+    18.5.1.12 UNIX signals
+    18.5.1.13 Executors
+    18.5.1.14 Error Handling API
+    18.5.1.15 Debug mode
+    18.5.1.16 Server
+    18.5.1.17 Handle
+    18.5.1.18 Event loop examples
+        18.5.1.18.1 Hello World with call_soon()
+        18.5.1.18.2 Display the current date with call_later()
+        18.5.1.18.3 Watch a file descriptor for read events
+        18.5.1.18.4 Set signal handlers for SIGIT and SIGTERM
+18.5.2 Event loops
+    18.5.2.1 Event loop functions
+    18.5.2.2 Available event loops
+    18.5.2.3 Platform support
+        18.5.2.3.1 Windows
+        18.5.2.3.2 Mac OS X
+    18.5.2.4 Event loop policies and the default policy
+    18.5.2.5 Event loop policy interface
+    18.5.2.6 Access to the global loop policy
+    18.5.2.7 Customizing the event loop policy
+18.5.3 Tasks and coroutines
+    18.5.3.1 Coroutines
+        18.5.3.1.1 Example: Hello World coroutine
+        18.5.3.1.2 Example: Coroutine displaying the current date
+        18.5.3.1.3 Example: Chain coroutines
+    18.5.3.2 InvalidStateError
+    18.5.3.3 TimeoutError
+    18.5.3.4 Future
+        18.5.3.4.1 Example: Future with run_until_complete()
+        18.5.3.4.2 Example: Future with run_forever()
+    18.5.3.5 Task
+        18.5.3.5.1 Example: Parallel execution of tasks
+    18.5.3.6 Task functions
+18.5.4 Transports and protocols (callback based API)
+    18.5.4.1 Transports
+        18.5.4.1.1 BaseTransport
+        18.5.4.1.2 ReadTransport
+        18.5.4.1.3 WriteTransport
+        18.5.4.1.4 DatagramTransport
+        18.5.4.1.5 BaseSubprocessTransport
+    18.5.4.2 Protocols
+        18.5.5.2.1 Protocol classes
+        18.5.5.2.2 Connection callbacks
+        18.5.5.2.3 Streaming protocols
+        18.5.5.2.4 Datagram protocols
+        18.5.5.2.1 Flow control callbacks
+        18.5.5.2.6 Coroutines and protocols
+    18.5.4.3 Protocol examples
+        18.5.4.3.1 TCP echo client protocol
+        18.5.4.3.2 TCP echo server protocol
+        18.5.4.3.3 UDP echo client protocol
+        18.5.4.3.4 UDP echo server protocol
+        18.5.4.3.5 Register an open socket to wait for data using a protocol
+18.5.5 Streams (coroutine based API)
+    18.5.5.1 Stream functions
+    18.5.5.2 StreamReader
+    18.5.5.3 StreamWriter
+    18.5.5.4 StreamReaderProtocol
+    18.5.5.5 IncompleteReadError
+    18.5.5.6 LimitOverrunError
+    18.5.5.7 Stream examples
+        18.5.5.7.1 TCP echo client using streams
+        18.5.5.7.2 TCP echo server using streams
+        18.5.5.7.3 Get HTTP headers
+        18.5.5.7.4 Register an open socket to wait for data using streams
+18.5.6 Subprocess
+    18.5.6.1 Windows event loop
+    18.5.6.2 Create a subprocess: high-level API using Process
+    18.5.6.3 Create a subprocess: low-level API using subprocess.Popen
+    18.5.6.4 Constants
+    18.5.6.5 Process
+    18.5.6.6 Subprocess and threads
+    18.5.6.7 Subprocess examples
+        18.5.6.7.1 Subprocess using tranport and protocol
+        18.5.6.7.2 Subprocess using streams
+18.5.7 Synchronization primitives
+    18.5.7.1 Locks
+        18.5.7.1.1 Lock
+        18.5.7.1.2 Event
+        18.5.7.1.3 Condition
+    18.5.7.2 Semaphores
+        18.5.7.2.1 Semaphore
+        18.5.7.2.2 BoundedSemaphore
+18.5.8 Queues
+    18.5.8.1 Queue
+    18.5.8.2 PriorityQueue
+    18.5.8.3 LifoQueue
+        18.5.8.3.1 Exceptions
+18.5.9 Develop with asyncio
+    18.5.9.1 Debug mode of asyncio
+    18.5.9.2 Cancellation
+    18.5.9.3 Concurrency and multithreading
+    18.5.9.4 Handle blocking functions correctly
+    18.5.9.5 Logging
+    18.5.9.6 Detext corouting objects never scheduled
+    18.5.9.7 Detect exceptions never consumed
+    18.5.9.8 Chain coroutines correctly
+    18.5.9.9 Pending task destroyed
+    18.5.9.10 Close transports and event loops
 
 ### 18.6 `asyncore`: Asynchronous socket handler
 
@@ -1015,6 +1020,26 @@
 
 ### 19.1 `email`: An email and MIME handling package
 
+19.1.1 
+19.1.2 
+    19.1.2.1 
+    19.1.2.2 
+    19.1.2.3 
+19.1.3 
+19.1.4 
+19.1.5 
+19.1.6 
+19.1.7 
+    19.1.7.1 
+19.1.8 
+19.1.9 
+19.1.10 
+19.1.11 
+19.1.12 
+19.1.13 
+19.1.14 
+19.1.15 
+
 ### 19.2 `json`: JSON encoder and decoder
 
 19.2.1 Basic Usage
@@ -1033,11 +1058,30 @@
 
 ### 19.4 `mailbox`: Manipulate mailboxes in various formats
 
+19.4.1 
+    19.4.1.1 
+    19.4.1.2 
+    19.4.1.3 
+    19.4.1.4 
+    19.4.1.5 
+19.4.2 
+    19.4.2.1 
+    19.4.2.2 
+    19.4.2.3 
+    19.4.2.4 
+    19.4.2.5 
+19.4.3 
+19.4.4 
+
 ### 19.5 `mimetypes`: Map filenames to MIME types
+
+19.5.1 
 
 ### 19.6 `base64`: Base16, Base32, Base64, Base85 data encodings
 
 ### 19.7 `binhex`: Encode and decode binhex4 files
+
+19.7.1 
 
 ### 19.8 `binascii`: Convert between binary and ASCII
 
@@ -1053,53 +1097,100 @@
 
 ### 20.2 `html.parser`: Simple HTML and XHTML parser
 
-20.2.1 
-20.2.2 
-20.2.3 
+20.2.1 Example HTML Parser Application
+20.2.2 `HTMLParser` Methods
+20.2.3 Examples
 
 ### 20.3 `html.entities`: Definitions of HTML general entities
 
 ### 20.4 XML processing modules
 
+20.4.1 
+20.4.2 
+
 ### 20.5 `xml.etree.ElementTree`: The ElementTree XML API
 
-20.5.1 
-    20.5.1.1 
-    20.5.1.2 
-    20.5.1.3 
-    20.5.1.4 
-    20.5.1.5 
-    20.5.1.6 
-    20.5.1.7 
-    20.5.1.8 
-20.5.2 
-    20.5.2.1 
-    20.5.2.2 
-20.5.3 
-    20.5.3.1 
-    20.5.3.2 
-    20.5.3.3 
-    20.5.3.4 
-    20.5.3.5 
-    20.5.3.6 
-    20.5.3.7 
-    20.5.3.8 
+20.5.1 Tutorial
+    20.5.1.1 XML tree and elemts
+    20.5.1.2 Parsing XML
+    20.5.1.3 Pull API for non-blocking parsing
+    20.5.1.4 Finding interesting elements
+    20.5.1.5 Modifying an XML File
+    20.5.1.6 Building XML documents
+    20.5.1.7 Parsing XML with Namespaces
+    20.5.1.8 Additional resources
+20.5.2 XPath support
+    20.5.2.1 Example
+    20.5.2.2 Supported XPath syntax
+20.5.3 Reference
+    20.5.3.1 Functions
+    20.5.3.2 Element Objects
+    20.5.3.3 ElementTree Objects
+    20.5.3.4 QName Objects
+    20.5.3.5 TreeBuilder Objects
+    20.5.3.6 XMLParser Objects
+    20.5.3.7 XMLPulParser Objects
+    20.5.3.8 Exceptions
 
 ### 20.6 `xml.dom`: The Document Object Model API
 
+20.6.1 
+20.6.2 
+    20.6.2.1 
+    20.6.2.2 
+    20.6.2.3 
+    20.6.2.4 
+    20.6.2.5 
+    20.6.2.6 
+    20.6.2.7 
+    20.6.2.8 
+    20.6.2.9 
+    20.6.2.10 
+    20.6.2.11 
+    20.6.2.12 
+20.6.3 
+    20.6.3.1 
+    20.6.3.2 
+
 ### 20.7 `xml.dom.minidom`: Minimal DOM implementation
+
+20.7.1 
+20.7.2 
+20.7.3 
 
 ### 20.8 `xml.dom.pulldom`: Support for building partial DOM trees
 
+20.8.1 
+
 ### 20.9 `xml.sax`: Support for SAX2 parsers
 
+20.9.1 
+
 ### 20.10 `xml.sax.handler`: Case classes for SAX handlers
+
+20.10.1 
+20.10.2 
+20.10.3 
+20.10.4 
 
 ### 20.11 `xml.sax.saxutils`: SAX utilities
 
 ### 20.12 `xml.sax.xmlparser`: Interface for XML parsers
 
+20.12.1 
+20.12.2 
+20.12.3 
+20.12.4 
+20.12.5 
+20.12.6 
+
 ### 20.13 `xml.parsers.expat`: Fase XML parsing using Expat
+
+20.13.1 
+20.13.2 
+20.13.3 
+20.13.4 
+20.13.5 
 
 - - - - -
 
@@ -1107,50 +1198,69 @@
 
 ### 21.1 `webbrowser`: Convenient web-browser controller
 
+21.1.1 
+
 ### 21.2 `cgi`: Common Gateway Interface support 
+
+21.2.1 
+21.2.2 
+21.2.3 
+21.2.4 
+21.2.5 
+21.2.6 
+21.2.7 
+21.2.8 
+21.2.9 
 
 ### 21.3 `cgitb`: Traceback manager for CGI script
 
 ### 21.4 `wsgiref`: WSGI utilities and reference implementation
 
+21.4.1 
+21.4.2 
+21.4.3 
+21.4.4 
+21.4.5 
+21.4.6 
+
 ### 21.5 `urllib`: URL handling modules
 
 ### 21.6 `urllib.request`: Extensible library for opening URLs
 
-21.6.1 
-21.6.2 
-21.6.3 
-21.6.4 
-21.6.5 
-21.6.6 
-21.6.7 
-21.6.8 
-21.6.9 
-21.6.10 
-21.6.11 
-21.6.12 
-21.6.13 
-21.6.14 
-21.6.15 
-21.6.16 
-21.6.17 
-21.6.18 
-21.6.19 
-21.6.20 
-21.6.21 
-21.6.22 
-21.6.23 
-21.6.24 
-21.6.25 
+21.6.1 Request Objects
+21.6.2 OpenerDirector Objects
+21.6.3 BaseHandler Objects
+21.6.4 HTTPRedirectHandler Objects
+21.6.5 HTTPCookieProcessor Objects
+21.6.6 ProxyHandler Objects
+21.6.7 HTTPPasswordMgr Objects
+21.6.8 HTTPPasswordMgrWithPriorAuth Objects
+21.6.9 AbstractBasicAuthHandler Objects
+21.6.10 HTTPBasicAuthHandler Objects
+21.6.11 ProxyBasicAuthHandler Objects
+21.6.12 AbstractDigestAuthHandler Objects
+21.6.13 HTTPDigestAuthHandler Objects
+21.6.14 ProxyDigestAuthHandler Objects
+21.6.15 HTTPHandler Objects
+21.6.16 HTTPSHandler Objects
+21.6.17 FileHandler Objects
+21.6.18 DataHandler Objects
+21.6.19 FTPHandler Objects
+21.6.20 CacheFTPHandler Objects
+21.6.21 UnknownHandler Objects
+21.6.22 HTTPErrorProcessor Objects
+21.6.23 Examples
+21.6.24 Legacy interface
+21.6.25 `urllib.request` Restrictions
 
 ### 21.7 `urllib.response`: Response classes used by urllib
 
 ### 21.8 `urllib.parse`: Parse URLs into components
 
-21.8.1 
-21.8.2 
-21.8.3 
-21.8.4 
+21.8.1 URL Parsing
+21.8.2 Parsing ASCII Encoded Bytes
+21.8.3 Structured Parser Results
+21.8.4 URL Quoting
 
 ### 21.9 `urllin.error`: Exception classes raised by urllib.request
 
@@ -1158,39 +1268,127 @@
 
 ### 21.11 `http`: HTTP modules
 
+21.11.1 HTTP status codes
+
 ### 21.12 `http.client`: HTTP protocol client
+
+21.12.1 HTTPConnection Objects
+21.12.2 HTTPResponse Objects
+21.12.3 Examples
+21.12.4 HTTPMessage Objects
 
 ### 21.13 `ftplib`: FTP protocol client
 
+21.13.1 
+21.13.2 
+
 ### 21.14 `poplib`: POP3 protocol client
+
+21.14.1 
+21.14.2 
 
 ### 21.15 `imaplib`: IMAP4 protocol client
 
+21.15.1 
+21.15.2 
+
 ### 21.16 `nntplib`: NNTP protocol client
+
+21.16.1 
+    21.16.1.1 
+    21.16.1.2 
+21.16.2 
 
 ### 21.17 `smtplib`: SMTP protocol client
 
+21.17.1 
+21.17.2 
+
 ### 21.18 `smtpd`: SMTP Server
+
+21.18.1 
+21.18.2 
+21.18.3 
+21.18.4 
+21.18.5 
 
 ### 21.19 `telnetlib`: Telnet client
 
+21.19.1 
+21.19.2 
+
 ### 21.20 `uuid`: UUID objects according to RFC 4122
 
+21.20.1
+
 ### 21.21 `socketserver`: A framework for network servers
+
+21.21.1 
+21.21.2 
+21.21.3 
+21.21.4 
+    21.21.4.1 
+    21.21.4.2 
+    21.21.4.3 
 
 ### 21.22 `http.server`: HTTP servers
 
 ### 21.23 `http.cookies`: HTTP state management
 
+21.23.1 
+21.23.2 
+21.23.3 
+
 ### 21.24 `http.cookiejar`: Cookie handling for HTTP clients
+
+21.24.1 
+21.24.2 
+21.24.3 
+21.24.4 
+21.24.5 
+21.24.6 
 
 ### 21.25 `xmlrpc`: XML-RPC server and client modules
 
 ### 21.26 `xmlrpc.client`: XML-RPC client access
 
+21.26.1
+21.26.2
+21.26.3
+21.26.4
+21.26.5
+21.26.6
+21.26.7
+21.26.8
+21.26.9
+
 ### 21.27 `xmlrc.server`: Basic XML-RPC servers
 
+21.27.1 
+    21.27.1.1 
+21.27.2 
+21.27.3 
+21.27.4 
+21.27.5 
+
 ### 21.28 `ipaddress`: IPv4/IPv6 manipulation library
+
+21.28.1 
+21.28.2 
+    21.28.2.1 
+    21.28.2.2 
+    21.28.2.3 
+        21.28.2.3.1 
+        21.28.2.3.2 
+21.28.3 
+    21.28.3.1 
+    21.28.3.2 
+    21.28.3.3 
+21.28.4 
+    21.28.4.1
+        21.28.4.1.1 
+21.28.5 
+21.28.6 
 
 - - - - -
 
