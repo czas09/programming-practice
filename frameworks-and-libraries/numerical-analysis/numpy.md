@@ -220,62 +220,220 @@
 
 ### 4.2 Array manipulation routines
 
+4.2.1 
+4.2.2 
+4.2.3 
+4.2.4 
+4.2.5 
+4.2.6 
+4.2.7 
+4.2.8 
+4.2.9 
+4.2.10 
 
 ### 4.3 Binary operations
 
+4.3.1 
+4.3.2 
+4.3.3 
+
 ### 4.4 String operations
+
+4.4.1 
+4.4.2 
+4.4.3 
+4.4.4 
 
 ### 4.5 C-Types Foreign Function Interface (`numpy.ctypeslib`)
 
 ### 4.6 Datetime Support Functions
 
+4.6.1 
+4.6.2 
+4.6.3 
+
 ### 4.7 Data type routines
 
+4.7.1 
+4.7.2 
+4.7.3 
+4.7.4 
+4.7.5 
+4.7.6 
+4.7.7 
+4.7.8 
+4.7.9 
+4.7.10 
+
 ### 4.8 Optionally Scipy-accelerated routines (`numpy.dual`)
+
+4.8.1 
+4.8.2 
+4.8.3 
 
 ### 4.9 Mathematical functions with automatic domain (`numpy.math`)
 
 ### 4.10 Floating point error handling
 
-### 4.11 Discrete Fourier Transform (1numpy.fft1)
+4.10.1 
+4.10.2 
+
+### 4.11 Discrete Fourier Transform (`numpy.fft`)
+
+4.11.1 
+4.11.2 
+4.11.3 
+4.11.4 
+4.11.5 
+4.11.6 
+4.11.7 
+4.11.8 
+4.11.9 
+4.11.10 
+4.11.11 
+4.11.12 
 
 ### 4.12 Financial functions
 
+4.12.1 
+
 ### 4.13 Functional programming
+
+4.13.1 
+4.13.2 
+4.13.3 
+4.13.4 
+4.13.5 
 
 ### 4.14 NumPy-specific help functions
 
+4.14.1 
+4.14.2 
+
 ### 4.15 Indexing routines
+
+4.15.1 
+4.15.2 
+4.15.3 
+4.15.4 
 
 ### 4.16 Input and output
 
+4.16.1 
+4.16.2 
+4.16.3 
+4.16.4 
+4.16.5 
+4.16.6 
+4.16.7 
+4.16.8 
+4.16.9 
+
 ### 4.17 Linear algebra (`numpy.linalg`)
+
+4.17.1 
+4.17.2 
+4.17.3 
+4.17.4 
+4.17.5 
+4.17.6 
+4.17.7 
 
 ### 4.18 Logic functions
 
+4.18.1 
+4.18.2 
+4.18.3 
+4.18.4 
+4.18.5 
+
 ### 4.19 Masked array operations
+
+4.19.1 
+4.19.2 
+4.19.3 
+4.19.4 
+4.19.5 
+4.19.6 
+4.19.7 
 
 ### 4.20 Mathematical functions
 
+4.20.1 
+4.20.2 
+4.20.3 
+4.20.4 
+4.20.5 
+4.20.6 
+4.20.7 
+4.20.8 
+4.20.9 
+4.20.10 
+4.20.11 
+
 ### 4.21 Matrix library (`numpy.matlib`)
+
+4.21.1 
+4.21.2 
+4.21.3 
+4.21.4 
+4.21.5 
+4.21.6 
+4.21.7 
+4.21.8 
 
 ### 4.22 Miscellaneous routines
 
+4.22.1 
+4.22.2 
+4.22.3 
+4.22.4 
+4.22.5 
+4.22.6 
+
 ### 4.23 Padding Arrays
+
+4.23.1 
 
 ### 4.24 Ploynomials
 
+4.24.1 
+
 ### 4.25 Random sampling (`numpy.random`)
+
+4.25.1 
+4.25.2 
+4.25.3 
+4.25.4 
 
 ### 4.26 Set routines
 
+4.26.1
+4.26.2
+
 ### 4.27 Sorting, searching, and counting
+
+4.27.1 
+4.27.2 
+4.27.3 
 
 ### 4.28 Statistics
 
+4.28.1 
+4.28.2 
+4.28.3 
+4.28.4 
+
 ### 4.29 Test support (`numpy.testing`)
 
+4.29.1 
+4.29.2 
+4.29.3 
+4.29.4 
+
 ### 4.30 Windows functions
+
+4.30.1 
 
 - - - - -
 
@@ -283,9 +441,14 @@
 
 ### 5.1 Performance-Related Options
 
+5.1.1 
+5.1.2 
+
 ### 5.2 Interoperability-Related Options
 
 ### 5.3 Debugging-Related Options
+
+5.3.1 
 
 - - - - -
 
@@ -296,6 +459,9 @@
 ### 6.2 Configuration class
 
 ### 6.3 Building Installable C libraries
+
+6.3.1 
+6.3.2 
 
 ### 6.4 Conversion of `.src` files
 
@@ -309,9 +475,26 @@
 
 ### 7.3 The `setup.py` file
 
+7.3.1 
+7.3.2 
+7.3.3 
+7.3.4 
+7.3.5 
+    7.3.5.1 
+    7.3.5.2 
+7.3.6 
+7.3.7 
+7.3.8 
+7.3.9 
+7.3.10 
+7.3.11 
+
 ### 7.4 The `__init__.py` file
 
 ### 7.5 Extra features in NumPy Distutils
+
+7.5.1 
+7.5.2 
 
 - - - - -
 
@@ -319,29 +502,107 @@
 
 ### 8.1 Python Types and C-Structures
 
+8.1.1 
+8.1.2 
+
 ### 8.2 System configuration
+
+8.2.1 
+8.2.2 
+8.2.3 
+8.2.4 
 
 ### 8.3 Data Type API
 
+8.3.1 
+8.3.2 
+8.3.3 
+8.3.4 
+
 ### 8.4 Array API
+
+8.4.1 
+8.4.2 
+8.4.3 
+8.4.4 
+8.4.5 
+8.4.6 
+8.4.7 
+8.4.8 
+8.4.9 
+8.4.10 
+8.4.11 
+8.4.12 
+8.4.13 
+8.4.14 
 
 ### 8.5 Array Iterator API
 
+8.5.1 
+8.5.2 
+8.5.3 
+8.5.4 
+8.5.5 
+8.5.6 
+8.5.7 
+
 ### 8.6 Ufunc API
+
+8.6.1 
+8.6.2 
+8.6.3 
+8.6.4 
+8.6.5 
 
 ### 8.7 Generalized Universal Function API
 
+8.7.1 
+8.7.2 
+8.7.3 
+
 ### 8.8 NumPy core libraries
 
+8.8.1 
+
 ### 8.9 C API Deprecations
+
+8.9.1 
+8.9.2 
 
 - - - - -
 
 ##  9 NumPy internals
 
 ### 9.1 NumPy C Code Explanations
+
+9.1.1 
+9.1.2 
+9.1.3 
+9.1.4 
+9.1.5 
+9.1.6 
+    9.1.6.1 
+9.1.7 
+    9.1.7.1 
+    9.1.7.2 
+        9.1.7.2.1 
+        9.1.7.2.2 
+        9.1.7.2.3 
+    9.1.7.3 
+    9.1.7.4 
+        9.1.7.4.1 
+        9.1.7.4.2 
+        9.1.7.4.3 
+        9.1.7.4.4 
+
 ### 9.2 Memory Alignment
+
+9.2.1 
+9.2.2 
+9.2.3 
+
 ### 9.3 internal organization of NumPy arrays
+
 ### 9.4 Multidimentional Array Indexing Order Issues
 
 - - - - -
@@ -350,4 +611,19 @@
 
 ### 10.1 numpy.i: a SWIG Inteface File for NumPy
 
+10.1.1 
+10.1.2 
+10.1.3 
+10.1.4 
+10.1.5 
+10.1.6 
+10.1.7 
+
 ### 10.2 Testing the numpy.i Typemaps
+
+10.2.1 
+10.2.2 
+10.2.3 
+10.2.4 
+10.2.5 
+10.2.6 
