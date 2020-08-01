@@ -32,7 +32,7 @@ TensorFlow v2.2.0
 `tf.math`
 `tf.metrics`
 `tf.nest`
-`tf.nn`
+`tf.nn`    // `tf.nn.seq2seq`
 `tf.optimizers`
 `tf.quantization`
 `tf.queue`
