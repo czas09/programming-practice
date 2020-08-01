@@ -41,118 +41,118 @@
 
 ### 2.2 Containers
 
-2.2.1 Module
-2.2.2 Sequential
-2.2.3 ModuleList
-2.2.4 ModuleDict
-2.2.5 ParameterList
-2.2.6 ParameterDict
+`Module`
+`Sequential`
+`ModuleList`
+`ModuleDict`
+`ParameterList`
+`ParameterDict`
 
 ### 2.3 Convolution layers
 
-2.3.1 Conv1d
-2.3.2 Conv2d
-2.3.3 Conv3d
-2.3.4 ConvTranspose1d
-2.3.5 ConvTranspose2d
-2.3.6 ConvTranspose3d
-2.3.7 Unfold
-2.3.8 Fold
+`Conv1d`
+`Conv2d`
+`Conv3d`
+`ConvTranspose1d`
+`ConvTranspose2d`
+`ConvTranspose3d`
+`Unfold`
+`Fold`
 
 ### 2.4 Pooling layers
 
-2.4.1 MaxPool1d
-2.4.2 MaxPool2d
-2.4.3 MaxPool3d
-2.4.4 MaxUnool1d
-2.4.5 MaxUnool2d
-2.4.6 MaxUnool3d
-2.4.7 AvgPool1d
-2.4.8 AvgPool2d
-2.4.9 AvgPool3d
-2.4.10 FractionalMaxPool2d
-2.4.11 LPPool1d
-2.4.12 LPPool2d
-2.4.13 AdaptiveMaxPool1d
-2.4.14 AdaptiveMaxPool2d
-2.4.15 AdaptiveMaxPool3d
-2.4.16 AdaptiveAvgPool1d
-2.4.17 AdaptiveAvgPool2d
-2.4.18 AdaptiveAvgPool3d
+`MaxPool1d`
+`MaxPool2d`
+`MaxPool3d`
+`MaxUnool1d`
+`MaxUnool2d`
+`MaxUnool3d`
+`AvgPool1d`
+`AvgPool2d`
+`AvgPool3d`
+`FractionalMaxPool2d`
+`LPPool1d`
+`LPPool2d`
+`AdaptiveMaxPool1d`
+`AdaptiveMaxPool2d`
+`AdaptiveMaxPool3d`
+`AdaptiveAvgPool1d`
+`AdaptiveAvgPool2d`
+`AdaptiveAvgPool3d`
 
 ### 2.5 Padding layers
 
-2.5.1 ReflectionPad1d
-2.5.2 ReflectionPad2d
-2.5.3 ReplicationPad1d
-2.5.4 ReplicationPad2d
-2.5.5 ReplicationPad3d
-2.5.6 ZeroPad2d
-2.5.7 ConstantPad1d
-2.5.8 ConstantPad2d
-2.5.9 ConstantPad3d
+`ReflectionPad1d`
+`ReflectionPad2d`
+`ReplicationPad1d`
+`ReplicationPad2d`
+`ReplicationPad3d`
+`ZeroPad2d`
+`ConstantPad1d`
+`ConstantPad2d`
+`ConstantPad3d`
 
 ### 2.6 Non-linear activations (weighted sum, nonlinearity)
 
-2.6.1 ELU
-2.6.2 Hardshrink
-2.6.3 Hardtanh
-2.6.4 LeakyReLU
-2.6.5 LogSigmoid
-2.6.6 MultiheadAttention
-2.6.7 PReLU
-2.6.8 ReLU
-2.6.9 ReLU6
-2.6.10 RReLU
-2.6.11 SELU
-2.6.12 CELU
-2.6.13 GELU
-2.6.14 Sigmoid
-2.6.15 Softplus
-2.6.16 Softshrink
-2.6.17 Softsign
-2.6.18 Tanh
-2.6.19 Tanhshrink
-2.6.20 Threshold
+`ELU`
+`Hardshrink`
+`Hardtanh`
+`LeakyReLU`
+`LogSigmoid`
+`MultiheadAttention`
+`PReLU`
+`ReLU`
+`ReLU6`
+`RReLU`
+`SELU`
+`CELU`
+`GELU`
+`Sigmoid`
+`Softplus`
+`Softshrink`
+`Softsign`
+`Tanh`
+`Tanhshrink`
+`Threshold`
 
 ### 2.7 Non-linear activations (other)
 
-2.7.1 Softmin
-2.7.2 Softmax
-2.7.3 Softmax2d
-2.7.4 LogSoftmax
-2.7.5 AdaptiveLogSoftmaxWithLoss
+`Softmin`
+`Softmax`
+`Softmax2d`
+`LogSoftmax`
+`AdaptiveLogSoftmaxWithLoss`
 
 ### 2.8 Normalization layers
 
-2.8.1 BatchNorm1d
-2.8.2 BatchNorm2d
-2.8.3 BatchNorm3d
-2.8.4 GroupNorm
-2.8.5 SynBatchNorm
-2.8.6 InstanceNorm1d
-2.8.7 InstanceNorm2d
-2.8.8 InstanceNorm3d
-2.8.9 LayerNorm
-2.8.10 LocalResponseNorm
+`BatchNorm1d`
+`BatchNorm2d`
+`BatchNorm3d`
+`GroupNorm`
+`SynBatchNorm`
+`InstanceNorm1d`
+`InstanceNorm2d`
+`InstanceNorm3d`
+`LayerNorm`
+`LocalResponseNorm`
 
 ### 2.9 Recurrent layers
 
-2.9.1 RNNBase
-2.9.2 RNN
-2.9.3 LSTM
-2.9.4 GRU
-2.9.5 RNNCell
-2.9.6 LSTMCell
-2.9.7 GRUCell
+`RNNBase`
+`RNN`
+`LSTM`
+`GRU`
+`RNNCell`
+`LSTMCell`
+`GRUCell`
 
 ### 2.10 Transformer layers
 
-2.10.1 Transformer
-2.10.2 TransformerEncoder
-2.10.3 TransformerDecoder
-2.10.4 TransformerEncoderLayer
-2.10.5 TransformerDecoderLayer
+`Transformer`
+`TransformerEncoder`
+`TransformerDecoder`
+`TransformerEncoderLayer`
+`TransformerDecoderLayer`
 
 ### 2.11 Linear layers
 
