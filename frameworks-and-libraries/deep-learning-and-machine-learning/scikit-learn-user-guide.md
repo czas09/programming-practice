@@ -7,8 +7,17 @@
 ### 1.1 Linear Models
 
 1.1.1 Ordinary Least Squares
+    1.1.1.1 Ordinary Least Squares Complexity
 1.1.2 Ridge regression and classification
+    1.1.2.1 Regression
+    1.1.2.2 Classification
+    1.1.2.3 Ridge Complexity
+    1.1.2.4 Setting the regularization parameter: genralized Cross-Validation
 1.1.3 Lasso
+    1.1.3.1 Setting regularization parameter
+        1.1.3.1.1 Using cross-validation
+        1.1.3.1.2 Information-criteria based model selection
+        1.1.3.1.3 Comparison with the regularization parameter of SVM
 1.1.4 Multi-task Lasso
 1.1.5 Elastic-Net
 1.1.6 Multi-task Elastic-Net
@@ -16,12 +25,18 @@
 1.1.8 LARS Lasso
 1.1.9 Orthogonal Matching Pursuit (OMP)
 1.1.10 Bayesian Regression
+    1.1.10.1 Bayesian Ridge Regression
+    1.1.10.2 Automatic Relevance Determination (ARD)
 1.1.11 Logistic Regression
 1.1.12 Generalized Linear Regression
 1.1.13 Stochastic Gradient Descent (SGD)
 1.1.14 Perceptron
 1.1.15 Passive Aggressive Algorithms
 1.1.16 Robustness regression: outliers and modeling errors
+    1.1.16.1 Different scenario and useful concepts
+    1.1.16.2 RANSAC: RANdom SAmple Consensus
+    1.1.16.3 Theil-Sen estimator: generalized-median-based estimator
+    1.1.16.4 Huber Regression
 1.1.17 Polynomial regression: extending linear models with basis functions
 
 ### 1.2 linear and Quadratic Discriminant Analysis
@@ -208,7 +223,7 @@
 2.6.3 Sparse Inverse Covariance
 2.6.4 Robust Covariance Estimation
 
-### 2.7 Navelty and Outlier Detection
+### 2.7 Novelty and Outlier Detection
 
 2.7.1 Overview of outlier detection methods
 2.7.2 Novelty Detection
