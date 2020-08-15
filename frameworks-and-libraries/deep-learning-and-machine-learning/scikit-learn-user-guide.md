@@ -104,9 +104,23 @@
 
 1.7.1 Gaussian Process Regression (GPR)
 1.7.2 GPR examples
+    1.7.2.1 GPR with noise-level estimation
+    1.7.2.2 Comparison of GPR and Kernel Ridge Regression
+    1.7.2.3 GPR on Mauna Loa C)2 data
 1.7.3 Gaussian Process Classification (GPC)
 1.7.4 GPC examples
+    1.7.4.1 Probabilistic predictions with GPC
+    1.7.4.2 Illustration of GPC on the XOR dataset
+    1.7.4.3 Gaussian process classification (GPC) on iris dataset
 1.7.5 Kernels for Gaussian Processes
+    1.7.5.1 Gaussian Process Kernel API
+    1.7.5.2 Basic kernels
+    1.7.5.3 Kernel operatiors
+    1.7.5.4 Radial-basis funtion (RBF) kernel
+    1.7.5.5 Matérn kernel
+    1.7.5.6 Rational quadratic kernel
+    1.7.5.7 Exp-Sine-Squared kernel
+    1.7.5.8 Dot-Product kernel
 
 ### 1.8 Cross decomposition
 
