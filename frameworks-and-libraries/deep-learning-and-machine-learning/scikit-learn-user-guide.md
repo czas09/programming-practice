@@ -52,6 +52,9 @@
 ### 1.4 Support Vector Machines
 
 1.4.1 Classification
+    1.4.1.1 Multi-class classification
+    1.4.1.2 Scores and probabilities
+    1.4.1.3 Unbalanced problems
 1.4.2 Regression
 1.4.3 Density estimation, novelty detection
 1.4.4 Complexity
