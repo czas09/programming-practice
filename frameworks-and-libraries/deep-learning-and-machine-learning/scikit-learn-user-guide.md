@@ -389,7 +389,16 @@
 3.2.1 Exhaustive Grid Search
 3.2.2 Randomized Parameter Optimization
 3.2.3 Tips for parameter search
+    3.2.3.1 Specifying an objective metric
+    3.2.3.2 Specifying multiple metrics for evaluation
+    3.2.3.3 Composite estimators and parameter spaces
+    3.2.3.4 Model selection: developemt and evaluation
+    3.2.3.5 Parallelism
+    3.2.3.6 Robustness to failure
 3.2.4 Alternatives to brute force parameter search
+    3.2.4.1 Model specific cross-validation
+    3.2.4.2 Information Criterion
+    3.2.4.3 Out of Bag Estimates
 
 ### 3.3 Metrics and scoring: quantifying the quality of predictions
 
