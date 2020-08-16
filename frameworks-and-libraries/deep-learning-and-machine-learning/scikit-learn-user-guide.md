@@ -518,10 +518,18 @@
 ### 6.3 Preprocessing data
 
 6.3.1 Standardization, or mean removal and variance scaling
+    6.3.1.1 Scaling features to a range
+    6.3.1.2 Scaling sparse data
+    6.3.1.3 Scaling data with outliers
+    6.3.1.4 Centering kernel matrices
 6.3.2 Non-linear transformation
+    6.3.2.1 Mapping to a Uniform distribution
+    6.3.2.2 Mapping to a Gaussian distribution
 6.3.3 Normalization
 6.3.4 Encoding categorical features
 6.3.5 Discretization
+    6.3.5.1 K-bins discretization
+    6.3.5.2 Feature binarization
 6.3.6 Imputation of missing values
 6.3.7 Generating polynomial features
 6.3.8 Custom tranformers
