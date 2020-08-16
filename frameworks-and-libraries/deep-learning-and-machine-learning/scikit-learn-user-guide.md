@@ -624,15 +624,30 @@
 
 ### 8.1 Strategies to scale computationally: bigger data
 
-8.1.1 Scaling with scale computationally: bigger data
+8.1.1 Scaling with instances using out-of-core learning
 
 ### 8.2 Computational Performance
 
 8.2.1 Prediction Latency
+    8.2.1.1 Bulk versus Atomic mode
+    8.2.1.2 Configuring Scikit-learn for reduction validation overhead
+    8.2.1.3 Influence of the Number of Features
+    8.2.1.4 Influence of the Input Representation
+    8.2.1.5 Influence of the Model Complexity
+    8.2.1.6 Feature Extraction Latency
 8.2.2 Prediction Throughout
 8.2.3 Tips and Tricks
+    8.2.3.1 Linear algebra libraries
+    8.2.3.2 Limiting Working Memory
+    8.2.3.3 Model Compression
+    8.2.3.4 Model Reshaping
+    8.2.3.5 Links
 
 ### 8.3 Parallelism, resource mangement, and configuration
 
 8.3.1 Parallelism
+    8.3.1.1 Joblib-based parallelism
+    8.3.1.2 OpenMP-based parallelism
+    8.3.1.3 Parallel Numpy routines from numerical libraries
+    8.3.1.4 Oversubscription: spawning too many threads
 8.3.2 Configuration switches
