@@ -185,7 +185,10 @@
 
 1.12.1 Multilabel classification format
 1.12.2 One-Vs-The-Rest
+    1.12.2.1 Multiclass learning
+    1.12.2.2 Multilabel learning
 1.12.3 One-Vs-One
+    1.12.3.1 Multiclass learning
 1.12.4 Error-Correcting Output-Codes
 1.12.5 Multioutput regression
 1.12.6 Multioutput classification
