@@ -500,7 +500,20 @@
 6.2.1 Loading features from dicts
 6.2.2 Feature hashing
 6.2.3 Text feature extraction
+    6.2.3.1 The Bag of Words representation
+    6.2.3.2 Sparsity
+    6.2.3.3 Common Vectorizer usage
+        6.2.3.3.1 Using stop words
+    6.2.3.4 Tf-idf term weighting
+    6.2.3.5 Decoding text files
+    6.2.3.6 Applications and examples
+    6.2.3.7 Limitations if the Bag of Words representation
+    6.2.3.8 Vectorizing a large text corpus with the hashing trick
+    6.2.3.9 Performing out-of-core scaling with Hashing Vectorizer
+    6.2.3.10 Customizing the vectorizer classes
 6.2.4 Image feature extraction
+    6.2.4.1 Patch extraction
+    6.2.4.2 Connectivity graph of an image
 
 ### 6.3 Preprocessing data
 
