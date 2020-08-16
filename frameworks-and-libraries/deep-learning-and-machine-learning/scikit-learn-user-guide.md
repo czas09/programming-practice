@@ -350,6 +350,9 @@
 ### 2.9 Neural network models (unsupervised)
 
 2.9.1 Restricted Boltzmann machines
+    2.9.1.1 Graphical model and parametrization
+    2.9.1.2 Bernoulli Restricted Boltzmann machines
+    2.9.1.3 Stochastic Maximum Likelihood learning
 
 - - - - -
 
