@@ -270,14 +270,30 @@
 
 2.3.1 Overview of clustering methods
 2.3.2 K-means
+    2.3.2.1 Low-level perallelism
+    2.3.2.2 Mini Batch K-Means
 2.3.3 Affinity Propagation
 2.3.4 Mean Shift
 2.3.5 Spectral clustering
+    2.3.5.1 Diffent label assignment strategies
+    2.3.5.2 Spectral Clustering Graphs
 2.3.6 Hierarchical clustering
+    2.3.6.1 Different linkage type: Ward, complete, average, and single linkage
+    2.3.6.2 Visualization of cluster hierarchy
+    2.3.6.3 Adding connectivity constraints
+    2.3.6.4 Varying the metric
 2.3.7 DBSCAN
 2.3.8 OPTICS
 2.3.9 Birch
 2.3.10 Clustering performance evaluation
+    2.3.10.1 Adjusted rand index
+    2.3.10.2 Mutual Information based scores
+    2.3.10.3 Homogeneity, completeness and V-measure
+    2.3.10.4 Fowlkes-Mallows scores
+    2.3.10.5 Silhouette Coeffivient
+    2.3.10.6 Calinski-Harabasz Index
+    2.3.10.7 Davies-Bouldin Index
+    2.3.10.8 Contingency Matrix
 
 ### 2.4 Biclustering
 
