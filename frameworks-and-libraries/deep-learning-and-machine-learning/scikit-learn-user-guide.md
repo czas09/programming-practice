@@ -148,11 +148,37 @@
 
 1.11.1 Bagging meta-estimator
 1.11.2 Forests of randomized trees
+    1.11.2.1 Random Forests
+    1.11.2.2 Extremely Randomized Trees
+    1.11.2.3 Parameters
+    1.11.2.4 Parallelization
+    1.11.2.5 Feature importance evaluation
+    1.11.2.6 Totally Random Trees Embedding
 1.11.3 AdaBoost
 1.11.4 Gradient Tree Boosting
+    1.11.4.1 Classification
+    1.11.4.2 Regression
+    1.11.4.3 Fitting additional weak-learners
+    1.11.4.4 Controlling the tree size
+    1.11.4.5 Mathematical formulation
+    1.11.4.6 Loss Functions
+    1.11.4.7 Shrinkage via learning rate
+    1.11.4.8 Subsampling
+    1.11.4.9 Interpretation with feature importance
 1.11.5 Histogram-Based Gradient Boosting
+    1.11.5.1 Usage
+    1.11.5.2 Missing values support
+    1.11.5.3 Sample weight support
+    1.11.5.4 Monotonic Constaints
+    1.11.5.5 Low-level parallelism
+    1.11.5.6 Why it's faster
 1.11.6 Voting Classifier
-1.11.7 Coting Regressor
+    1.11.6.1 Majority Class Labels (Majority/Hard Voting)
+    1.11.6.2 Usage
+    1.11.6.3 Weight Average Probabilities (Soft Voting)
+    1.11.6.4 Using the `VotingClassifier` with `GridSearchCV`
+    1.11.6.5 Usage
+1.11.7 Voting Regressor
 1.11.8 Stacked Generalization
 
 ### 1.12 Multiclass and multilabel algorithms
