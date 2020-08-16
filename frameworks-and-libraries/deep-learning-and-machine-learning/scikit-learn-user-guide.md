@@ -484,6 +484,12 @@
 ### 6.1 Pipelines and composite estimators
 
 6.1.1 Pipeline: chaining estimators
+    6.1.1.1 Usage
+        6.1.1.1.1 Construction
+        6.1.1.1.2 Accessing steps
+        6.1.1.1.3 Nested parameters
+    6.1.1.2 Notes
+    6.1.1.3 Caching transformers: avoid repeated computation
 6.1.2 Transforming target in regression
 6.1.3 FeatureUnion: composite feature spaces
 6.1.4 ColumnTransformer for heterogeneous data
