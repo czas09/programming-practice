@@ -201,6 +201,8 @@
 1.13.2 Uniariate feature selection
 1.13.3 Recursive feature elimination
 1.13.4 Feature selection using SelectFromModel
+    1.13.4.1 L1-based feature selection
+    1.13.4.2 Tree-based feature selection
 1.13.5 Feature selection as part of a pipeline
 
 ### 1.14 Semi-Supervised
