@@ -325,8 +325,12 @@
 
 2.6.1 Empirical Covariance
 2.6.2 Shrunk Covariance
+    2.6.2.1 Basic shrinkage
+    2.6.2.2 Ledoit-Wolf shrinkage
+    2.6.2.3 Oracle Approximating Shrinkage
 2.6.3 Sparse Inverse Covariance
 2.6.4 Robust Covariance Estimation
+    2.6.4.1 Minimum Covariance Determinant
 
 ### 2.7 Novelty and Outlier Detection
 
