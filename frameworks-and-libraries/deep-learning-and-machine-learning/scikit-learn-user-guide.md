@@ -403,9 +403,43 @@
 ### 3.3 Metrics and scoring: quantifying the quality of predictions
 
 3.3.1 The `scoring` parameter: defining model evaluation rules
+    3.3.1.1 Common cases: predefined values
+    3.3.1.2 Defining your scoring strategy from metric functions
+    3.3.1.3 Implementation your own scoring object
+    3.3.1.4 Using multiple metric evaluation
 3.3.2 Classification metrics
+    3.3.2.1 From binary to multiclass and multilabel
+    3.3.2.2 Accuracy score
+    3.3.2.3 Balanced accuracy score
+    3.3.2.4 Cohen's kappa
+    3.3.2.5 Confusion matrix
+    3.3.2.6 Classification report
+    3.3.2.7 Hamming loss
+    3.3.2.8 Precision, recall and F-measures
+        3.3.2.8.1 Binary classfication
+        3.3.2.8.2 Multiclass and multilabel classification
+    3.3.2.9 Jaccard similarity coefficient score
+    3.3.2.10 Hinge loss
+    3.3.2.11 Log loss
+    3.3.2.12 Matthews correlation coefficient
+    3.3.2.13 Multi-label confusion matrix
+    3.3.2.14 Receiver operating characteristic (ROC)
+    3.3.2.15 Zero one loss
+    3.3.2.16 Brier score loss
 3.3.3 Multilabel ranking metrics
+    3.3.3.1 Coverage error
+    3.3.3.2 Label ranking average precision
+    3.3.3.3 Ranking loss
+    3.3.3.4 Normalized Discounted Cumulative Gain
 3.3.4 Regression metrics
+    3.3.4.1 Explained variance score
+    3.3.4.2 Max error
+    3.3.4.3 Mean absolute error
+    3.3.4.4 Mean squared error
+    3.3.4.5 Mean squared logarithmic error
+    3.3.4.6 Median absolute error
+    3.3.4.7 $R^2$ score, the coefficient of determination
+    3.3.4.8 Mean Poisson, Gamma, and Tweedie deviances
 3.3.5 Clustering metrics
 3.3.6 Dummy estimators
 
